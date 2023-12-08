@@ -8,27 +8,54 @@ import ChartTwo from '../../components/ChartTwo.tsx';
 import ChatCard from '../../components/ChatCard.tsx';
 import MapOne from '../../components/MapOne.tsx';
 import TableOne from '../../components/TableOne.tsx';
+import DailySummary from '../../components/DailySummary';
+import TradingObjective from '../../components/TradingObjective';
+import TradingDetails from '../../components/TradingDetails';
+import Calendar from '../Calendar';
+
+let cards : any = [
+  {
+    label : 'Start Date',
+    data : '1 Feb, 2022'
+  },
+  {
+    label : 'End Date\n',
+    data : '28 Feb, 2022'
+  },
+  {
+    label : 'Account Size',
+    data : '$50,000.00'
+  },
+  {
+    label : 'Status',
+    data : 'In Progress'
+  },
+  {
+    label : 'Status',
+    data : 'In Progress'
+  },
+]
 
 const ECommerce = () => {
   return (
     <>
-      <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-6 xl:grid-cols-4 2xl:gap-7.5">
-        <CardOne />
-        <CardTwo />
-        <CardThree />
-        <CardFour />
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-6 xl:grid-cols-5 2xl:gap-7.5">
+        {cards.map((item : any)=>(<CardOne data={item}/>))}
       </div>
 
       <div className="mt-4 grid grid-cols-12 gap-4 md:mt-6 md:gap-6 2xl:mt-7.5 2xl:gap-7.5">
         <ChartOne />
-        <ChartTwo />
-        <ChartThree />
-        <MapOne />
-        <div className="col-span-12 xl:col-span-8">
-          <TableOne />
-        </div>
-        <ChatCard />
+        <DailySummary />
+        <TradingDetails />
+        <TradingObjective />
+        {/*<ChartThree />*/}
+        {/*<MapOne />*/}
+        {/*<div className="col-span-12 xl:col-span-8">*/}
+        {/*  <TableOne />*/}
+        {/*</div>*/}
+        {/*<ChatCard />*/}
       </div>
+      <Calendar />
     </>
   );
 };
