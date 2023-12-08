@@ -3,9 +3,9 @@ import Header from '../components/Header';
 import Sidebar from '../components/Sidebar';
 import { Outlet } from 'react-router-dom';
 
-const DefaultLayout = () => {
+const DefaultLayout = ({setOpenModel} : any) => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
-
+  // const [openModel,setOpenModel]=useState(true)
   return (
     <div className="dark:bg-boxdark-2 dark:text-bodydark">
       {/* <!-- ===== Page Wrapper Start ===== --> */}
@@ -17,7 +17,7 @@ const DefaultLayout = () => {
         {/* <!-- ===== Content Area Start ===== --> */}
         <div className="relative flex flex-1 flex-col overflow-y-auto overflow-x-hidden">
           {/* <!-- ===== Header Start ===== --> */}
-          <Header sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
+          <Header sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} setOpenModel={setOpenModel}/>
           {/* <!-- ===== Header End ===== --> */}
 
           {/* <!-- ===== Main Content Start ===== --> */}
