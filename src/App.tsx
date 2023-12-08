@@ -13,7 +13,7 @@ const DefaultLayout = lazy(() => import('./layout/DefaultLayout'));
 
 function App() {
   const [loading, setLoading] = useState<boolean>(true);
-  const [openModel,setOpenModel]=useState(true)
+  const [openModel,setOpenModel]=useState(false)
 
   useEffect(() => {
     setTimeout(() => setLoading(false), 1000);
@@ -49,7 +49,7 @@ function App() {
           })}
         </Route>
       </Routes>
-      { openModel&& <Model setOpenModel={setOpenModel}/>}
+      { openModel && <Model setOpenModel={setOpenModel}/>}
     </>
   );
 }

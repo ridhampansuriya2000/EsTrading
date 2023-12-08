@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Model = ({openLogoutModel}:any) => {
   return (
-    <div className="error-modal fixed inset-0 overflow-hidden bg-black bg-opacity-50 z-50">
+    <div className="error-modal fixed inset-0 overflow-hidden bg-black bg-opacity-50 z-50"> 
       <div className="flex items-center justify-center min-h-screen">
         <div className="bg-white p-8 rounded shadow-md text-center">
           <h2 className="text-2xl font-bold mb-4">Error</h2>

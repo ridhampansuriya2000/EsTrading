@@ -37,6 +37,7 @@ const DropdownUser = ({setOpenModel}:any) => {
   });
 
   const openLogoutModel=()=>{
+    setDropdownOpen(false)
     setOpenModel(true)
   }
 
@@ -160,7 +161,7 @@ const DropdownUser = ({setOpenModel}:any) => {
             </Link>
           </li>
         </ul>
-        <button className="flex items-center gap-3.5 py-4 px-6 text-sm font-medium duration-300 ease-in-out hover:text-primary lg:text-base" onClick={()=>{openLogoutModel}}>
+        <button className="flex items-center gap-3.5 py-4 px-6 text-sm font-medium duration-300 ease-in-out hover:text-primary lg:text-base" onClick={()=>openLogoutModel()}>
           <svg
             className="fill-current"
             width="22"
