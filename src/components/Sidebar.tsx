@@ -67,7 +67,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
         <NavLink to="/">
           <div className='flex items-center gap-[10px]'>
             <img src='/favicon.ico' alt='logo' width='40'/>
-            <span className='text-[30px] font-[500] text-[#ffffff]'>E-Commerce</span>
+            <span className='text-[30px] font-[500] text-[#ffffff]'>Stoke Market</span>
           </div>
         </NavLink>
 

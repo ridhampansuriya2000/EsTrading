@@ -15,29 +15,29 @@ const LosserTable = () => {
       <div className="flex flex-col">
         <div className="grid grid-cols-3 rounded-sm bg-gray-2 dark:bg-meta-4 sm:grid-cols-5">
           <div className="p-2.5 xl:p-5">
-            <h5 className="text-sm font-medium uppercase xsm:text-base">
+            <p className="text-[14px] uppercase  font-[700]">
               Name
-            </h5>
+            </p>
           </div>
           <div className="p-2.5 text-center xl:p-5">
-            <h5 className="text-sm font-medium uppercase xsm:text-base">
+            <p className="text-[14px] uppercase  font-[700]">
 
-            </h5>
+            </p>
           </div>
           <div className="p-2.5 text-center xl:p-5">
-            <h5 className="text-sm font-medium uppercase xsm:text-base">
+            <p className="text-[14px] uppercase  font-[700]">
               Price
-            </h5>
+            </p>
           </div>
           <div className="hidden p-2.5 text-center sm:block xl:p-5">
-            <h5 className=" text-sm font-medium uppercase xsm:text-base">
+            <p className="text-[14px] uppercase  font-[700]">
               Change
-            </h5>
+            </p>
           </div>
           <div className="hidden p-2.5 text-center sm:block xl:p-5">
-            <h5 className="text-sm font-medium uppercase xsm:text-base">
-              Change%
-            </h5>
+            <p className="text-[14px] uppercase  font-[700]">
+              Change %
+            </p>
           </div>
         </div>
 
@@ -46,7 +46,7 @@ const LosserTable = () => {
             {/*<div className="flex-shrink-0">*/}
             {/*  <img src={BrandOne} alt="Brand" />*/}
             {/*</div>*/}
-            <p className="hidden text-black dark:text-white sm:block">BA</p>
+            <p className="hidden text-black dark:text-white sm:block font-[600]">BA</p>
           </div>
 
           <div className="flex items-center justify-center p-2.5 xl:p-5">
@@ -71,7 +71,7 @@ const LosserTable = () => {
             {/*<div className="flex-shrink-0">*/}
             {/*  <img src={BrandTwo} alt="Brand" />*/}
             {/*</div>*/}
-            <p className="hidden text-black dark:text-white sm:block">
+            <p className="hidden text-black dark:text-white sm:block font-[600]">
               IBM
             </p>
           </div>
@@ -98,7 +98,7 @@ const LosserTable = () => {
             {/*<div className="flex-shrink-0">*/}
             {/*  <img src={BrandThree} alt="Brand" />*/}
             {/*</div>*/}
-            <p className="hidden text-black dark:text-white sm:block">INTC</p>
+            <p className="hidden text-black dark:text-white sm:block font-[600]">INTC</p>
           </div>
 
           <div className="flex items-center justify-center p-2.5 xl:p-5">
@@ -123,7 +123,7 @@ const LosserTable = () => {
             {/*<div className="flex-shrink-0">*/}
             {/*  <img src={BrandFour} alt="Brand" />*/}
             {/*</div>*/}
-            <p className="hidden text-black dark:text-white sm:block">CVX</p>
+            <p className="hidden text-black dark:text-white sm:block font-[600]">CVX</p>
           </div>
 
           <div className="flex items-center justify-center p-2.5 xl:p-5">
@@ -148,13 +148,13 @@ const LosserTable = () => {
             {/*<div className="flex-shrink-0">*/}
             {/*  <img src={BrandFive} alt="Brand" />*/}
             {/*</div>*/}
-            <p className="hidden text-black dark:text-white sm:block">
+            <p className="hidden text-black dark:text-white sm:block font-[600]">
               GS
             </p>
           </div>
 
           <div className="flex items-center justify-center p-2.5 xl:p-5">
-            <p className="text-black dark:text-white">Goldman Sachs</p>
+            <p className="text-black dark:text-white">Goldman</p>
           </div>
 
           <div className="flex items-center justify-center p-2.5 xl:p-5">
