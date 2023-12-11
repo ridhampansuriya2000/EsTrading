@@ -110,7 +110,7 @@ const TradingDetails: React.FC = () => {
 
       <div className='flex justify-between mt-[20px]'>
         <div className='flex justify-arround items-center gap-[20px] font-bold' >
-          <div id="chartTwo" className="flex justify-around rounded-[20px] p-[20px] h-[100px] w-[120px] border-2 border-solid border-[#808080] rounded-[4px] shadow-[0_0_60px_-15px_rgba(0,0,0,0.3)]">
+          <div id="chartTwo" className="flex justify-around rounded-[20px] p-[20px] h-[100px] w-[120px] border-2 border-solid border-[#808080] rounded-[20px] shadow-[0_0_60px_-15px_rgba(0,0,0,0.3)]">
             <div className="flex flex-col justify-between" >
               <div className='font-bold text-[#000000]' >Avrg pice</div>
               <div className='font-bold  dark:text-[#808080]'>$46.36</div>
