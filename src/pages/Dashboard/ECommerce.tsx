@@ -13,6 +13,8 @@ import TradingObjective from '../../components/TradingObjective';
 import TradingDetails from '../../components/TradingDetails';
 import Calendar from '../Calendar';
 import Subnavbar from '../../components/Subnavbar';
+import TableTwo from '../../components/TableTwo';
+import LosserTable from '../../components/LosserTable';
 
 let cards : any = [
   {
@@ -45,7 +47,7 @@ const ECommerce = () => {
         {cards.map((item : any)=>(<CardOne data={item}/>))}
       </div>
 
-      <div className="mt-4 grid grid-cols-12 gap-4 md:mt-6 md:gap-6 2xl:mt-7.5 2xl:gap-7.5">
+      <div className="mt-4 mb-10 grid grid-cols-12 gap-4 md:mt-6 md:gap-6 2xl:mt-7.5 2xl:gap-7.5">
         <ChartOne />
         <DailySummary />
         <TradingDetails />
@@ -56,6 +58,10 @@ const ECommerce = () => {
         {/*  <TableOne />*/}
         {/*</div>*/}
         {/*<ChatCard />*/}
+      </div>
+      <div className='flex gap-[10px]'>
+        <TableOne />
+        <LosserTable />
       </div>
       <Calendar />
     </>

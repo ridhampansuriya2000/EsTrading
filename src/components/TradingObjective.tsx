@@ -89,7 +89,7 @@ const TradingObjective: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className='mb-[10px]'>
+      <div className='mb-[30px]'>
         <div id="chartTwo" className="rounded-[20px] p-[20px] h-[90%] flex flex-col justify-around shadow-[0_0_60px_-15px_rgba(0,0,0,0.3)]">
           <div className="flex flex-row justify-between items-center" >
             <div className='font-bold text-[#000000] dark:text-[#808080] ' ><div>Max Daily Loss</div><div>Result : 400</div></div>
@@ -97,9 +97,10 @@ const TradingObjective: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="w-full bg-gray-200 rounded-full h-2.5 bg-[gray] mt-[30px]">
-        <div className="bg-[blue] h-2.5 rounded-full" style={{width:'55px'}} ></div>
-      </div>
+      {/*<div className="w-full bg-gray-200 rounded-full h-2.5 bg-[gray] mt-[30px]">*/}
+      {/*  <div className="bg-[blue] h-2.5 rounded-full" style={{width:'55px'}} ></div>*/}
+      {/*</div>*/}
+      <input type='range' style={{width:"100%", height : '20px'}}/>
     </div>
   );
 };

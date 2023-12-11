@@ -2,11 +2,11 @@ import Breadcrumb from '../components/Breadcrumb';
 
 const Calendar = () => {
   return (
-    <>
+    <div className='mt-[40px]'>
       <Breadcrumb pageName="Calendar" />
 
       {/* <!-- ====== Calendar Section Start ====== --> */}
-      <div className="w-full max-w-full rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
+      <div className=" w-full max-w-full rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
         <table className="w-full">
           <thead>
             <tr className="grid grid-cols-7 rounded-t-sm bg-primary text-white">
@@ -51,12 +51,12 @@ const Calendar = () => {
                   <span className="group-hover:text-primary md:hidden">
                     More
                   </span>
-                  <div className="event invisible absolute left-2 z-99 mb-1 flex w-[200%] flex-col rounded-sm border-l-[3px] border-primary bg-gray px-3 py-1 text-left opacity-0 group-hover:visible group-hover:opacity-100 dark:bg-meta-4 md:visible md:w-[90%] md:opacity-100">
+                  <div className="event invisible absolute left-2 z-30 mb-1 flex w-[200%] flex-col rounded-sm border-l-[3px] border-primary bg-gray px-3 py-1 text-left opacity-0 group-hover:visible group-hover:opacity-100 dark:bg-meta-4 md:visible md:w-[90%] md:opacity-100">
                     <span className="event-name text-md font-semibold text-[green] dark:text-white">
                       Profit
                     </span>
                     <span className="time text-md font-medium text-[green] dark:text-white">
-                      $122.2k
+                      $45,22.2k
                     </span>
                   </div>
                 </div>
@@ -65,31 +65,99 @@ const Calendar = () => {
                 <span className="font-medium text-black dark:text-white">
                   2
                 </span>
+                <div className="group h-16 w-full flex-grow cursor-pointer py-1 md:h-30">
+                  <span className="group-hover:text-primary md:hidden">
+                    More
+                  </span>
+                  <div className="event invisible absolute left-2 z-30 mb-1 flex w-[300%] flex-col rounded-sm border-l-[3px] border-primary bg-gray px-3 py-1 text-left opacity-0 group-hover:visible group-hover:opacity-100 dark:bg-meta-4 md:visible md:w-[90%] md:opacity-100">
+                    <span className="event-name text-md font-semibold text-[red] dark:text-white">
+                      Loss
+                    </span>
+                    <span className="time text-md font-medium text-[red] dark:text-white">
+                      $754,45k
+                    </span>
+                  </div>
+                </div>
               </td>
               <td className="ease relative h-20 cursor-pointer border border-stroke p-2 transition duration-500 hover:bg-gray dark:border-strokedark dark:hover:bg-meta-4 md:h-25 md:p-6 xl:h-31">
                 <span className="font-medium text-black dark:text-white">
                   3
                 </span>
+                <div className="group h-16 w-full flex-grow cursor-pointer py-1 md:h-30">
+                  <span className="group-hover:text-primary md:hidden">
+                    More
+                  </span>
+                  <div className="event invisible absolute left-2 z-30 mb-1 flex w-[300%] flex-col rounded-sm border-l-[3px] border-primary bg-gray px-3 py-1 text-left opacity-0 group-hover:visible group-hover:opacity-100 dark:bg-meta-4 md:visible md:w-[90%] md:opacity-100">
+                    <span className="event-name text-md font-semibold text-[red] dark:text-white">
+                      Loss
+                    </span>
+                    <span className="time text-md font-medium text-[red] dark:text-white">
+                      $312,45k
+                    </span>
+                  </div>
+                </div>
               </td>
               <td className="ease relative h-20 cursor-pointer border border-stroke p-2 transition duration-500 hover:bg-gray dark:border-strokedark dark:hover:bg-meta-4 md:h-25 md:p-6 xl:h-31">
                 <span className="font-medium text-black dark:text-white">
                   4
                 </span>
+                <div className="group h-16 w-full flex-grow cursor-pointer py-1 md:h-30">
+                  <span className="group-hover:text-primary md:hidden">
+                    More
+                  </span>
+                  <div className="event invisible absolute left-2 z-30 mb-1 flex w-[300%] flex-col rounded-sm border-l-[3px] border-primary bg-gray px-3 py-1 text-left opacity-0 group-hover:visible group-hover:opacity-100 dark:bg-meta-4 md:visible md:w-[90%] md:opacity-100">
+                    <span className="event-name text-md font-semibold text-[red] dark:text-white">
+                      Loss
+                    </span>
+                    <span className="time text-md font-medium text-[red] dark:text-white">
+                      $834,45k
+                    </span>
+                  </div>
+                </div>
               </td>
               <td className="ease relative h-20 cursor-pointer border border-stroke p-2 transition duration-500 hover:bg-gray dark:border-strokedark dark:hover:bg-meta-4 md:h-25 md:p-6 xl:h-31">
                 <span className="font-medium text-black dark:text-white">
                   5
                 </span>
+                <div className="event invisible absolute left-2 z-30 mb-1 flex w-[200%] flex-col rounded-sm border-l-[3px] border-primary bg-gray px-3 py-1 text-left opacity-0 group-hover:visible group-hover:opacity-100 dark:bg-meta-4 md:visible md:w-[90%] md:opacity-100">
+                    <span className="event-name text-md font-semibold text-[green] dark:text-white">
+                      Profit
+                    </span>
+                  <span className="time text-md font-medium text-[green] dark:text-white">
+                      $322.2k
+                    </span>
+                </div>
               </td>
               <td className="ease relative h-20 cursor-pointer border border-stroke p-2 transition duration-500 hover:bg-gray dark:border-strokedark dark:hover:bg-meta-4 md:h-25 md:p-6 xl:h-31">
                 <span className="font-medium text-black dark:text-white">
                   6
                 </span>
+                <div className="event invisible absolute left-2 z-30 mb-1 flex w-[200%] flex-col rounded-sm border-l-[3px] border-primary bg-gray px-3 py-1 text-left opacity-0 group-hover:visible group-hover:opacity-100 dark:bg-meta-4 md:visible md:w-[90%] md:opacity-100">
+                    <span className="event-name text-md font-semibold text-[green] dark:text-white">
+                      Profit
+                    </span>
+                  <span className="time text-md font-medium text-[green] dark:text-white">
+                      $522.2k
+                    </span>
+                </div>
               </td>
               <td className="ease relative h-20 cursor-pointer border border-stroke p-2 transition duration-500 hover:bg-gray dark:border-strokedark dark:hover:bg-meta-4 md:h-25 md:p-6 xl:h-31">
                 <span className="font-medium text-black dark:text-white">
                   7
                 </span>
+                <div className="group h-16 w-full flex-grow cursor-pointer py-1 md:h-30">
+                  <span className="group-hover:text-primary md:hidden">
+                    More
+                  </span>
+                  <div className="event invisible absolute left-2 z-30 mb-1 flex w-[300%] flex-col rounded-sm border-l-[3px] border-primary bg-gray px-3 py-1 text-left opacity-0 group-hover:visible group-hover:opacity-100 dark:bg-meta-4 md:visible md:w-[90%] md:opacity-100">
+                    <span className="event-name text-md font-semibold text-[red] dark:text-white">
+                      Loss
+                    </span>
+                    <span className="time text-md font-medium text-[red] dark:text-white">
+                      $334,45k
+                    </span>
+                  </div>
+                </div>
               </td>
             </tr>
             {/* <!-- Line 1 --> */}
@@ -99,21 +167,71 @@ const Calendar = () => {
                 <span className="font-medium text-black dark:text-white">
                   8
                 </span>
+                <div className="group h-16 w-full flex-grow cursor-pointer py-1 md:h-30">
+                  <span className="group-hover:text-primary md:hidden">
+                    More
+                  </span>
+                  <div className="event invisible absolute left-2 z-30 mb-1 flex w-[300%] flex-col rounded-sm border-l-[3px] border-primary bg-gray px-3 py-1 text-left opacity-0 group-hover:visible group-hover:opacity-100 dark:bg-meta-4 md:visible md:w-[90%] md:opacity-100">
+                    <span className="event-name text-md font-semibold text-[red] dark:text-white">
+                      Loss
+                    </span>
+                    <span className="time text-md font-medium text-[red] dark:text-white">
+                      $34,45k
+                    </span>
+                  </div>
+                </div>
               </td>
               <td className="ease relative h-20 cursor-pointer border border-stroke p-2 transition duration-500 hover:bg-gray dark:border-strokedark dark:hover:bg-meta-4 md:h-25 md:p-6 xl:h-31">
                 <span className="font-medium text-black dark:text-white">
                   9
                 </span>
+                <div className="event invisible absolute left-2 z-30 mb-1 flex w-[200%] flex-col rounded-sm border-l-[3px] border-primary bg-gray px-3 py-1 text-left opacity-0 group-hover:visible group-hover:opacity-100 dark:bg-meta-4 md:visible md:w-[90%] md:opacity-100">
+                    <span className="event-name text-md font-semibold text-[green] dark:text-white">
+                      Profit
+                    </span>
+                  <span className="time text-md font-medium text-[green] dark:text-white">
+                      $52.2k
+                    </span>
+                </div>
+                <div className="group h-16 w-full flex-grow cursor-pointer py-1 md:h-30">
+                  <span className="group-hover:text-primary md:hidden">
+                    More
+                  </span>
+                  <div className="event invisible absolute left-2 z-30 mb-1 flex w-[300%] flex-col rounded-sm border-l-[3px] border-primary bg-gray px-3 py-1 text-left opacity-0 group-hover:visible group-hover:opacity-100 dark:bg-meta-4 md:visible md:w-[90%] md:opacity-100">
+                    <span className="event-name text-md font-semibold text-[red] dark:text-white">
+                      Loss
+                    </span>
+                    <span className="time text-md font-medium text-[red] dark:text-white">
+                      $34,45k
+                    </span>
+                  </div>
+                </div>
               </td>
               <td className="ease relative h-20 cursor-pointer border border-stroke p-2 transition duration-500 hover:bg-gray dark:border-strokedark dark:hover:bg-meta-4 md:h-25 md:p-6 xl:h-31">
                 <span className="font-medium text-black dark:text-white">
                   10
                 </span>
+                <div className="event invisible absolute left-2 z-30 mb-1 flex w-[200%] flex-col rounded-sm border-l-[3px] border-primary bg-gray px-3 py-1 text-left opacity-0 group-hover:visible group-hover:opacity-100 dark:bg-meta-4 md:visible md:w-[90%] md:opacity-100">
+                    <span className="event-name text-md font-semibold text-[green] dark:text-white">
+                      Profit
+                    </span>
+                  <span className="time text-md font-medium text-[green] dark:text-white">
+                      $522.2k
+                    </span>
+                </div>
               </td>
               <td className="ease relative h-20 cursor-pointer border border-stroke p-2 transition duration-500 hover:bg-gray dark:border-strokedark dark:hover:bg-meta-4 md:h-25 md:p-6 xl:h-31">
                 <span className="font-medium text-black dark:text-white">
                   11
                 </span>
+                <div className="event invisible absolute left-2 z-30 mb-1 flex w-[200%] flex-col rounded-sm border-l-[3px] border-primary bg-gray px-3 py-1 text-left opacity-0 group-hover:visible group-hover:opacity-100 dark:bg-meta-4 md:visible md:w-[90%] md:opacity-100">
+                    <span className="event-name text-md font-semibold text-[green] dark:text-white">
+                      Profit
+                    </span>
+                  <span className="time text-md font-medium text-[green] dark:text-white">
+                      $222.2k
+                    </span>
+                </div>
               </td>
               <td className="ease relative h-20 cursor-pointer border border-stroke p-2 transition duration-500 hover:bg-gray dark:border-strokedark dark:hover:bg-meta-4 md:h-25 md:p-6 xl:h-31">
                 <span className="font-medium text-black dark:text-white">
@@ -192,19 +310,6 @@ const Calendar = () => {
                 <span className="font-medium text-black dark:text-white">
                   25
                 </span>
-                <div className="group h-16 w-full flex-grow cursor-pointer py-1 md:h-30">
-                  <span className="group-hover:text-primary md:hidden">
-                    More
-                  </span>
-                  <div className="event invisible absolute left-2 z-99 mb-1 flex w-[300%] flex-col rounded-sm border-l-[3px] border-primary bg-gray px-3 py-1 text-left opacity-0 group-hover:visible group-hover:opacity-100 dark:bg-meta-4 md:visible md:w-[90%] md:opacity-100">
-                    <span className="event-name text-md font-semibold text-[red] dark:text-white">
-                      Loss
-                    </span>
-                    <span className="time text-md font-medium text-[red] dark:text-white">
-                      $234,45k
-                    </span>
-                  </div>
-                </div>
               </td>
               <td className="ease relative h-20 cursor-pointer border border-stroke p-2 transition duration-500 hover:bg-gray dark:border-strokedark dark:hover:bg-meta-4 md:h-25 md:p-6 xl:h-31">
                 <span className="font-medium text-black dark:text-white">
@@ -266,7 +371,7 @@ const Calendar = () => {
         </table>
       </div>
       {/* <!-- ====== Calendar Section End ====== --> */}
-    </>
+    </div>
   );
 };
 
