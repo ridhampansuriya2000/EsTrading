@@ -57,11 +57,11 @@ const TableOne = () => {
           </div>
 
           <div className="hidden items-center justify-center p-2.5 sm:flex xl:p-5">
-            <p className="text-[green] text-black dark:text-white">7.19</p>
+            <p className="text-[green] ">7.19</p>
           </div>
 
           <div className="hidden items-center justify-center p-2.5 sm:flex xl:p-5">
-            <p className="text-[green] text-meta-5">3.03</p>
+            <p className="text-[green] ">3.03</p>
           </div>
         </div>
 

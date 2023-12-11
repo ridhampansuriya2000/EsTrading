@@ -58,11 +58,11 @@ const LosserTable = () => {
           </div>
 
           <div className="hidden items-center justify-center p-2.5 sm:flex xl:p-5">
-            <p className="text-[red] text-black dark:text-white">7.19</p>
+            <p className="text-[red]">7.19</p>
           </div>
 
           <div className="hidden items-center justify-center p-2.5 sm:flex xl:p-5">
-            <p className="text-[red] text-meta-5">3.03</p>
+            <p className="text-[red]">3.03</p>
           </div>
         </div>
 
