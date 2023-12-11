@@ -82,17 +82,17 @@ const TradingObjective: React.FC = () => {
       </div>
 
       <div className='mb-[10px]'>
-        <div id="chartTwo" className="bg-[black] rounded-[20px] p-[20px] h-[90%] flex flex-col justify-around">
+        <div id="chartTwo" className="rounded-[20px] p-[20px] h-[90%] flex flex-col justify-around shadow-[0_0_60px_-15px_rgba(0,0,0,0.3)]">
           <div className="flex flex-row justify-between items-center" >
-            <div className='font-bold text-[#b6b6b6] dark:text-[#808080] ' >Result : 70</div>
-            <div className='font-bold text-[#50d71e] dark:text-[#50d71e] px-[10px] py-[5px] border-2 border-solid border-[#243c5a] rounded-[4px]' >Passed</div>
+            <div className='font-bold text-[#000000] dark:text-[#808080] ' >Result : 70</div>
+            <div className='font-bold text-[#50d71e] dark:text-[#50d71e] px-[10px] py-[5px] border-2 border-solid border-[#50d71e] rounded-[4px]' >Passed</div>
           </div>
         </div>
       </div>
       <div className='mb-[10px]'>
-        <div id="chartTwo" className="bg-[black] rounded-[20px] p-[20px] h-[90%] flex flex-col justify-around">
+        <div id="chartTwo" className="rounded-[20px] p-[20px] h-[90%] flex flex-col justify-around shadow-[0_0_60px_-15px_rgba(0,0,0,0.3)]">
           <div className="flex flex-row justify-between items-center" >
-            <div className='font-bold text-[#b6b6b6] dark:text-[#808080] ' ><div>Max Daily Loss</div><div>Result : 400</div></div>
+            <div className='font-bold text-[#000000] dark:text-[#808080] ' ><div>Max Daily Loss</div><div>Result : 400</div></div>
             <div className='font-bold text-[#cfcf46] dark:text-[#50d71e] px-[10px] py-[5px] border-2 border-solid border-[#cfcf46] rounded-[4px]' >In Progress</div>
           </div>
         </div>

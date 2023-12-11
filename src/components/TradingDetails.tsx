@@ -81,69 +81,69 @@ const TradingDetails: React.FC = () => {
         </div>
       </div>
 
-      <div id="chartTwo" className="bg-[black] rounded-[20px] p-[20px] h-[100px] flex justify-around">
+        <div id="chartTwo" className="flex justify-around rounded-[20px] p-[20px] h-[100px] shadow-[0_0_60px_-15px_rgba(0,0,0,0.3)]">
         <div className="flex flex-col justify-between" >
-          <div className='font-bold' >Equity</div>
-          <div className='font-bold text-[#b6b6b6] dark:text-[#808080]'>$12,344,4</div>
+          <div className='font-bold text-[#000000]' >Equity</div>
+          <div className='font-bold '>$12,344,4</div>
         </div>
         <div className="flex flex-col justify-between" >
-          <div className='font-bold'>Udoras</div>
-          <div className='font-bold text-[#b6b6b6] dark:text-[#808080]'>$52,215.52</div>
+          <div className='font-bold text-[#000000]'>Udoras</div>
+          <div className='font-bold '>$52,215.52</div>
         </div>
         <div className="flex flex-col justify-between" >
-          <div className='font-bold'>No of off</div>
-          <div className='font-bold text-[#b6b6b6] dark:text-[#808080]' >48</div>
+          <div className='font-bold text-[#000000]'>No of off</div>
+          <div className='font-bold ' >48</div>
         </div>
         <div className="flex flex-col justify-between" >
-          <div className='font-bold'>Loss</div>
-          <div className='font-bold text-[#b6b6b6] dark:text-[#808080]' >7.09</div>
+          <div className='font-bold text-[#000000]'>Loss</div>
+          <div className='font-bold ' >7.09</div>
         </div>
         <div className="flex flex-col justify-between" >
-          <div className='font-bold' >woin rate</div>
-          <div className='font-bold text-[#b6b6b6] dark:text-[#808080]' >100.00%</div>
+          <div className='font-bold text-[#000000]' >woin rate</div>
+          <div className='font-bold ' >100.00%</div>
         </div>
         <div className="flex flex-col justify-between" >
-          <div className='font-bold' >Highest</div>
-          <div className='font-bold text-[#b6b6b6] dark:text-[#808080]' >$12,434.34</div>
+          <div className='font-bold text-[#000000]' >Highest</div>
+          <div className='font-bold ' >$12,434.34</div>
         </div>
       </div>
 
       <div className='flex justify-between mt-[20px]'>
         <div className='flex justify-arround items-center gap-[20px] font-bold' >
-          <div id="chartTwo" className="flex justify-around bg-[black] rounded-[20px] p-[20px] h-[100px] w-[120px] border-2 border-solid border-[#243c5a] rounded-[4px]  ">
+          <div id="chartTwo" className="flex justify-around rounded-[20px] p-[20px] h-[100px] w-[120px] border-2 border-solid border-[#808080] rounded-[4px] shadow-[0_0_60px_-15px_rgba(0,0,0,0.3)]">
             <div className="flex flex-col justify-between" >
-              <div className='font-bold' >Avrg pice</div>
-              <div className='font-bold text-[#b6b6b6] dark:text-[#808080]'>$46.36</div>
+              <div className='font-bold text-[#000000]' >Avrg pice</div>
+              <div className='font-bold  dark:text-[#808080]'>$46.36</div>
             </div>
           </div>
-          <div>
+          <div className='text-[#000000]'>
             Avrage Loss
           </div>
-          <div>
+          <div className='text-[#000000]'>
             Avrage RRR
           </div>
         </div>
-        <div id="chartTwo" className="bg-[black] rounded-[20px] p-[20px] h-[100px] w-[350px] flex justify-around">
+        <div id="chartTwo" className="rounded-[20px] p-[20px] h-[100px] w-[350px] flex justify-around shadow-[0_0_60px_-15px_rgba(0,0,0,0.3)]">
           <div className="flex flex-col justify-between" >
-            <div className='font-bold' >Expectence</div>
-            <div className='font-bold text-[#b6b6b6] dark:text-[#808080]'>$46.36</div>
+            <div className='font-bold text-[#000000]' >Expectence</div>
+            <div className='font-bold dark:text-[#808080]'>$46.36</div>
           </div>
           <div className="flex flex-col justify-between" >
-            <div className='font-bold'>Fyot Factor</div>
-            <div className='font-bold text-[#b6b6b6] dark:text-[#808080]'>$15,215.52</div>
+            <div className='font-bold text-[#000000]'>Fyot Factor</div>
+            <div className='font-bold dark:text-[#808080]'>$15,215.52</div>
           </div>
           <div className="flex flex-col justify-between" >
-            <div className='font-bold'>Noyot</div>
-            <div className='font-bold text-[#b6b6b6] dark:text-[#808080]'>$53.96</div>
+            <div className='font-bold text-[#000000]'>Noyot</div>
+            <div className='font-bold dark:text-[#808080]'>$53.96</div>
           </div>
         </div>
       </div>
 
       <div className='flex justify-between items-center mt-10'>
-        <div id="chartTwo" className="bg-[black] rounded-[20px] p-[20px] h-[90px] w-[250px] flex justify-around items-center">
+        <div id="chartTwo" className="rounded-[20px] p-[20px] h-[90px] w-[250px] flex justify-around items-center shadow-[0_0_60px_-15px_rgba(0,0,0,0.3)]">
           <div className="flex flex-row justify-between items-center" >
-            <div className='font-bold' >Time Zone : </div>
-            <div className='font-bold text-[#b6b6b6] dark:text-[#808080]'>GMT + 0</div>
+            <div className='font-bold text-[#000000]' >Time Zone : </div>
+            <div className='font-bold dark:text-[#808080]'>GMT + 0</div>
           </div>
         </div>
 

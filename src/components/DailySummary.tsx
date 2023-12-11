@@ -82,29 +82,29 @@ const DailySummary: React.FC = () => {
       </div>
 
       <div className='h-[90%]'>
-        <div id="chartTwo" className="bg-[black] rounded-[20px] p-[20px] h-[90%] flex flex-col justify-around">
+        <div id="chartTwo" className="flex flex-col justify-around rounded-[20px] p-[20px] h-[90%] shadow-[0_0_60px_-15px_rgba(0,0,0,0.3)]">
           <div className="flex flex-row justify-between" >
-            <div className='font-bold text-[#b6b6b6] dark:text-[#808080] ' >Day Gan</div>
+            <div className='font-bold text-[#000000] dark:text-[#808080] ' >Day Gan</div>
             <div className='font-bold text-[#50d71e] dark:text-[#50d71e] '>15.41%</div>
           </div>
           <div className="flex flex-row justify-between" >
-            <div className='font-bold text-[#b6b6b6] dark:text-[#808080]'>ABC Gan</div>
+            <div className='font-bold text-[#000000] dark:text-[#808080]'>ABC Gan</div>
             <div className='font-bold text-[#50d71e] dark:text-[#50d71e] '>15.43%</div>
           </div>
           <div className="flex flex-row justify-between" >
-            <div className='font-bold text-[#b6b6b6] dark:text-[#808080]'>Day Dradown</div>
+            <div className='font-bold text-[#000000] dark:text-[#808080]'>Day Dradown</div>
             <div className='font-bold' >0.17%</div>
           </div>
           <div className="flex flex-row justify-between" >
-            <div className='font-bold text-[#b6b6b6] dark:text-[#808080]'>LoremEpsum</div>
+            <div className='font-bold text-[#000000] dark:text-[#808080]'>LoremEpsum</div>
             <div className='font-bold' >1200</div>
           </div>
           <div className="flex flex-row justify-between" >
-            <div className='font-bold text-[#b6b6b6] dark:text-[#808080]' >LoremEpsum</div>
+            <div className='font-bold text-[#000000] dark:text-[#808080]' >LoremEpsum</div>
             <div className='font-bold' >7.22%</div>
           </div>
           <div className="flex flex-row justify-between" >
-            <div className='font-bold text-[#b6b6b6] dark:text-[#808080]' >LoremEpsum</div>
+            <div className='font-bold text-[#000000] dark:text-[#808080]' >LoremEpsum</div>
             <div className='font-bold' >20.01%</div>
           </div>
         </div>
