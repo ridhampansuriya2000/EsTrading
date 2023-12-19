@@ -124,7 +124,7 @@ const TradingDetails: React.FC = () => {
             Avrage RRR
           </div>
         </div>
-        <div id="chartTwo" className="chart-box rounded-[20px] p-[20px] h-[100px] w-[full] sm:w-[350px] flex justify-around shadow-[0_0_60px_-15px_rgba(0,0,0,0.3)]">
+        <div id="chartTwo" className="chart-box sm:grid-cols-2 md:grid-cols-3 rounded-[20px] p-[20px] h-[100px] w-[full] sm:w-[350px] flex justify-around shadow-[0_0_60px_-15px_rgba(0,0,0,0.3)]">
           <div className="flex flex-col justify-between">
             <div className='font-bold text-[#000000]'>Expectence</div>
             <div className='font-bold dark:text-[#808080]'>$46.36</div>
@@ -141,15 +141,15 @@ const TradingDetails: React.FC = () => {
       </div>
 
       <div className="objective-data flex justify-between items-center mt-4 sm:mt-4">
-        <div id="chartTwo" className="rounded-[20px] p-[20px] h-[90px] w-[250px] flex justify-around items-center shadow-[0_0_60px_-15px_rgba(0,0,0,0.3)]">
-          <div className="flex flex-row justify-between items-center">
+        <div id="chartTwo" className="w-[100%] rounded-[20px] p-[20px] h-[90px] w-[250px] flex justify-around items-center shadow-[0_0_60px_-15px_rgba(0,0,0,0.3)]">
+          <div className="flex flex-row justify-between items-center gap-[5px] ">
             <div className='font-bold text-[#000000]'>Time Zone : </div>
             <div className='font-bold dark:text-[#808080]'>GMT + 0</div>
           </div>
         </div>
 
-        <div className='flex objective-box'>
-          <div className='font-bold text-[black]'>Last Update :</div>
+        <div className='flex objective-box gap-[5px] whitespace-nowrap'>
+          <div className='font-bold text-[black] '>Last Update :</div>
           <div className='font-bold text-[blue]'>5 Jan 2022 00:00:20:12</div>
         </div>
       </div>

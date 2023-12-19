@@ -6,35 +6,35 @@ import BrandFive from '../images/brand/brand-05.svg';
 
 const TableOne = () => {
   return (
-    <div className="rounded-sm border border-stroke bg-white px-4 pt-4 pb-2 shadow-default dark:border-strokedark dark:bg-boxdark sm:px-6 xl:pb-1 mb-4 sm:mb-6">
+    <div className="rounded-sm border border-stroke bg-white px-4 pt-4 pb-2 shadow-default dark:border-strokedark dark:bg-boxdark sm:px-6 xl:pb-1 mb-4 sm:mb-6 md:w-[50%]">
       <h4 className="mb-4 text-xl font-semibold text-black dark:text-white">
         Gainers Stokes
       </h4>
 
       <div className="flex flex-col">
-        <div className="grid grid-cols-5 rounded-sm bg-gray-2 dark:bg-meta-4 sm:grid-cols-5">
+        <div className="grid grid-cols-5 rounded-sm bg-gray-2 dark:bg-meta-4 sm:grid-cols-5 gap-[3px]">
         <div className="p-2.5 xl:p-5">
-          <p className="text-[14px] uppercase  font-[700]">
+          <p className="text-[11px] uppercase  font-[700]">
             Name
           </p>
         </div>
         <div className="p-2.5 text-center xl:p-5">
-          <p className="text-[14px] uppercase  font-[700]">
+          <p className="text-[11px] uppercase  font-[700]">
             Brand
           </p>
         </div>
         <div className="p-2.5 text-center xl:p-5">
-          <p className="text-[14px] uppercase  font-[700]">
+          <p className="text-[11px] uppercase  font-[700]">
             Price
           </p>
         </div>
         <div className="xs-padding p-2.5 lg:pl-0 text-center xl:p-5 ">
-          <p className="text-[14px] uppercase  font-[700]">
+          <p className="text-[11px] uppercase  font-[700]">
             Change
           </p>
         </div>
         <div className="xs-padding p-2.5 text-center xl:p-5">
-          <p className="text-[14px] uppercase  font-[700] whitespace-nowrap">
+          <p className="text-[11px] uppercase  font-[700] whitespace-nowrap">
             Change %
           </p>
         </div>
