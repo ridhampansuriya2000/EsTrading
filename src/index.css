@@ -182,3 +182,13 @@ span.flatpickr-weekday,
     margin-top: 15px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .progress-bar{
+    overflow-x: auto;
+  }
+
+  .progress-size{
+  width: fit-content;
+}
+}

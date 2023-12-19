@@ -5,7 +5,7 @@ const Model = ({openLogoutModel}:any) => {
   return (
     <div className="error-modal fixed inset-0 overflow-hidden bg-black bg-opacity-50 z-[11000]">
       <div className="flex items-center justify-center min-h-screen">
-        <div className="bg-white p-8 rounded shadow-md text-center">
+        <div className="m-5 bg-white p-8 rounded shadow-md text-center">
           <h2 className="text-2xl font-bold mb-4">Error</h2>
           <p className="text-red-500">You are logout from your investment broker account, please login again.</p>
           <a href={'https://www.interactivebrokers.co.in/sso/Login?RL=1'}

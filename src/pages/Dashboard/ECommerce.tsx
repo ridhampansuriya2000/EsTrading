@@ -42,7 +42,7 @@ let cards : any = [
 const ECommerce = () => {
   return (
     <>
-      <div className='' ><Subnavbar/></div>
+      <div className='progress-bar'><Subnavbar/></div>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-6 xl:grid-cols-5 2xl:gap-7.5 mt-[20px]">
         {cards.map((item : any)=>(<CardOne data={item}/>))}
       </div>
