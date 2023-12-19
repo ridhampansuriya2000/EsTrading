@@ -59,7 +59,7 @@ const ECommerce = () => {
         {/*</div>*/}
         {/*<ChatCard />*/}
       </div>
-      <div className='flex gap-[10px] w-[100%]'>
+      <div className='flex gap-[10px] flex-col md:flex-row'>
         <TableOne />
         <LosserTable />
       </div>

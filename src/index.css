@@ -161,3 +161,9 @@ span.flatpickr-weekday,
 [x-cloak] {
   display: none !important;
 }
+
+@media screen and (max-width: 1200px) {
+  .xs-padding {
+    padding-left: 0 !important;
+  }
+}
